@@ -8,9 +8,7 @@ function MealsPage() {
       <p>
         <Link href="/meals/share">SHARE</Link>{" "}
       </p>
-      <p>
-        <Link href="/meals/community">COMMUNITY</Link>{" "}
-      </p>
+
       <p>
         <Link href="/meals/meal-details">MealDetails</Link>{" "}
       </p>
