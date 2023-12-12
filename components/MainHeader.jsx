@@ -1,13 +1,14 @@
 import Link from "next/link";
+import Image from "next/image";
 import classes from "./styles.module.css";
 
-import logoImg from "@/assets/logo.png"; //wehn importing image like this it returns an object that we should use the src key in src props
+import logoImg from "@/assets/logo.png";
 
 function MainHeader() {
   return (
     <header className={classes.header}>
       <Link href="/" className={classes.logo}>
-        <img src={logoImg.src} alt="A plate with food on it" />
+        <Image src={logoImg} alt="A plate with food on it" priority />
         Next Level Food
       </Link>
       <nav className={classes.nav}>
