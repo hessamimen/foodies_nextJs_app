@@ -10,7 +10,7 @@ async function Meals() {
   const meals = await getMeals();
   return <MealsGrid meals={meals} />;
 }
-
+console.log("first");
 function MealsPage() {
   return (
     <>
